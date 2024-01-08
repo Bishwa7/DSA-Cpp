@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    //cout<<"Hello World";
+    
+    int n, sum=0;
+    cin>>n;
+    
+    for(int i=1;i<=n;i++)
+    {
+        sum+=i;
+    }
+    
+    cout<<sum;
+    
+    
+
+
+
+    return 0;
+}
